@@ -791,3 +791,22 @@ body {
     margin-bottom: 50px;
   }
 }
+
+@media (max-width: 524px) {
+  #gtco-main-nav::after {
+    background-image: none;
+  }
+}
+
+@media (max-width: 524px) {
+  #gtco-main-nav::before {
+    background-image: none;
+  }
+}
+
+@media (max-width: 524px) {
+  #gtco-main-nav button {
+    background: -webkit-linear-gradient(left, #1d3ede, #01e6f8);
+    border-color: white;
+  }
+}
